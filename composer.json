@@ -1,0 +1,39 @@
+{
+    "name": "lib/opening-hours",
+    "description": "Lib for opening hours",
+    "keywords": [
+        "opening-hours"
+    ],
+    "homepage": "https://github.com/TahinaMananjara/testProject",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tahina Mananjara",
+            "email": "ratah56@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "kylekatarnls/multi-tester": "^1.1",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\OpeningHours\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lib\\OpeningHours\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
