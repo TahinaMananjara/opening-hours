@@ -1,7 +1,4 @@
 <?php
-/*define('LANG_ENGLISH', 'en');
-define('LANG_FRENCH', 'fr');
-define('LANG_SPANISH', 'es');*/
 namespace Lib\OpeningHours\Helpers;
 
 class Lang {
